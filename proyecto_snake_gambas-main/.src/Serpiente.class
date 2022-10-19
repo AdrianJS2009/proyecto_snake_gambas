@@ -28,7 +28,7 @@ Private direccion As String
 Public Sub _new(nuevaX As Short, nuevaY As Short, colorSerpiente As Integer, nuevaDir As String)
 
 
-     Dim cabeza As Cuadrado
+     Dim cabeza As Cuadrado 'Comentario para el ejercicio de GIT
      
      cabeza = New Cuadrado(colorSerpiente, 20, nuevaX, nuevaY)
      '¿cuál será el "ancho" de mi serpiente?
@@ -60,7 +60,7 @@ End
 
 
 'pintarse
-Public Sub pintarse(tablero As DrawingArea)
+Public Sub pintarse(tablero As DrawingArea) 'Comentario para el ejercicio de GIT
 
   Dim iContador As Integer
   'tengo que conseguir que cada uno de los cuadrados, uno a uno, se pinte

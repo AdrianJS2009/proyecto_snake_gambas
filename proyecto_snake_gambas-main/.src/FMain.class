@@ -1,8 +1,8 @@
 ' Gambas class file
 
-Private viborita As Serpiente
+Private viborita As Serpiente 'Comentario para el ejercicio de GIT
 
-Private iPasos As Integer
+Private iPasos As Integer 'Comentario para el ejercicio de GIT
 
 
 Public Sub Jugar_Click()

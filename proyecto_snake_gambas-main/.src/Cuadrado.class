@@ -27,7 +27,7 @@ Private posY As Short
 'primero ponemos public, después sub, _new para los constructores
 'después entre paréntesis tantos tripletes de parámetros como atributos (norma general)
 
-Public Sub _new(nuevoColor As Integer, nuevoLado As Short, nuevaX As Short, nuevaY As Short)
+Public Sub _new(nuevoColor As Integer, nuevoLado As Short, nuevaX As Short, nuevaY As Short) 'Comentario para el ejercicio de GIT
 
 
       'asignamos los valores
@@ -40,7 +40,7 @@ Public Sub _new(nuevoColor As Integer, nuevoLado As Short, nuevaX As Short, nuev
 End
 
 'Moverse
-Public Sub moverse(letra As String)
+Public Sub moverse(letra As String) 'Comentario para el ejercicio de GIT
   
   If letra = "W" Then 
     'queremos ir parriba
@@ -64,7 +64,7 @@ End
 
 
 'pintarse
-Public Sub pintarse(tablero As DrawingArea)
+Public Sub pintarse(tablero As DrawingArea) 'Comentario para el ejercicio de GIT
   
     Dim colorLoteria As Integer
     
@@ -80,7 +80,7 @@ End
 
 
 'getters
-Public Function getColor() As Integer
+Public Function getColor() As Integer 'Comentario para el ejercicio de GIT
   
    Return colorCuadrado
   
@@ -100,7 +100,7 @@ Public Function getPosY() As Short
 End
 
 
-Public Function colisiona(otroCuadrado As Cuadrado) As Boolean
+Public Function colisiona(otroCuadrado As Cuadrado) As Boolean 'Comentario para el ejercicio de GIT
   
   Dim bResultado As Boolean
   
